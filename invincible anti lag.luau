@@ -10,9 +10,7 @@ local savePlayerSizeEvent = ReplicatedStorage:WaitForChild("rEvents"):WaitForChi
 savePlayerSizeEvent:FireServer("showPopupsOption")
 
 Lighting.ClockTime = 0
-Lighting.Brightness = 0
-Lighting.Ambient = Color3.fromRGB(20, 20, 30)
-Lighting.OutdoorAmbient = Color3.fromRGB(20, 20, 30)
+Lighting.Brightness = 50
 
 local function cleanParticles(character)
     if not character then return end
